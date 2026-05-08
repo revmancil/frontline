@@ -900,6 +900,38 @@ ul {
   font-weight: 800;
 }
 
+.founder-photo img {
+  width: 9.5rem;
+  height: 9.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1.1rem;
+  border: 4px solid #fff;
+  box-shadow:
+    0 0 0 2px rgba(212, 167, 44, 0.55),
+    0 18px 40px rgba(15, 23, 42, 0.18);
+}
+
+.portrait-name {
+  margin: 0;
+  display: grid;
+  gap: 0.2rem;
+  text-align: center;
+}
+
+.portrait-name strong {
+  font-size: 1.15rem;
+  color: var(--text);
+}
+
+.portrait-name span {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+}
+
 .portrait-note {
   margin-bottom: 0;
 }
@@ -1567,6 +1599,10 @@ ul {
 /* ----------------------------------------------------------------
    Imagery: hero bands, service-card thumbs, blog thumbs, article hero
 ---------------------------------------------------------------- */
+
+picture {
+  display: contents;
+}
 
 .media-band {
   padding: 0 0 4.5rem;
